@@ -44,7 +44,7 @@ class Application(tk.Tk):
 
     # function of click-event
     def __pointHolder(self, event) -> None:
-        # checking not all points have been placeds
+        # checking not all points have been placed
         if(len(self.__mem)) > 3:
             return
         # function for determining the color of points

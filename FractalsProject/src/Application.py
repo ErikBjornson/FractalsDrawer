@@ -7,6 +7,7 @@ class Application(tk.Tk):
 
         self.__mem = [] # array for storing coordinates of points
         self.__size = 450 # window size
+        self.__flag = False # once-started-program flag
 
         super().__init__()
         self.title("Fractal")
@@ -25,7 +26,8 @@ class Application(tk.Tk):
     # function of iterational process
     def __fractalizator(self, event) -> None:
         # checking all points have been placed
-        if len(self.__mem) <= 3: return
+        if len(self.__mem) <= 3 or self.__flag: return
+        self.__flag = True # а program can be run only once
         for _ in range(5000):
             self.__generator()
             self.update()

@@ -27,7 +27,7 @@ class Application(tk.Tk):
     def __fractalizator(self, event) -> None:
         # checking all points have been placed
         if len(self.__mem) <= 3 or self.__flag: return
-        self.__flag = True # а program can be run only once
+        self.__flag = True # this program can be run only once
         for _ in range(5000):
             self.__generator()
             self.update()

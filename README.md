@@ -9,11 +9,17 @@ This GitHub repository contains a Python program that creates a graphical user i
 
 ## Project Overview
 
-The program allows users to interactively generate a Chaos Game Fractal on the Canvas. Here's how it works:
+The program allows users to interactively generate a fractal on the Canvas. Here's how it works:
 
 1. **Setting Up Base Points**: When the Canvas is clicked once, a reference point is placed. The first three clicks place red reference points, and the fourth click places a green starting point.
 
 2. **Generating the Fractal**: After all base points have been set up, a double-click triggers the fractal generation process. The program selects a random base point, calculates the midpoint between the starting point and the selected base point, and then draws a white point at that midpoint. The starting point is then updated to the coordinates of the newly drawn point. This process is repeated a certain number of times to create the fractal.
+
+The image below shows the program window after the fractal generation process has been completed, displaying the generated fractal on the Canvas:
+
+![Results of program (image)](/FractalsProject/assets/resultFractal.png)
+
+The red base points and the green starting point are visible, and the fractal is composed of white points that form a complex pattern.
 
 ## Usage
 

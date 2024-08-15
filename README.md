@@ -17,7 +17,7 @@ The program allows users to interactively generate a fractal on the Canvas. Here
 
 The image below shows the program window after the fractal generation process has been completed, displaying the generated fractal on the Canvas:
 
-![Results of program (image)](/FractalsProject/assets/resultFractal.png)
+![Results of program (image)](/assets/resultFractal.png)
 
 The red base points and the green starting point are visible, and the fractal is composed of white points that form a complex pattern.
 
